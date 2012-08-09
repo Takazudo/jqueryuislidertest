@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width">
+<link href="jqueryui/css/ui-lightness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+<style>
+#all {
+	max-width:600px;
+	margin:0 auto;
+}
+#wrap {
+	height:400px;
+	border:2px solid red;
+	padding:10px;
+}
+#slider {
+	margin:0 0 10px;
+}
+#slider2 {
+	height:90%;
+}
+</style>
+<script src="jqueryui/js/jquery-1.7.2.min.js"></script>
+<script src="jqueryui/development-bundle/ui/jquery.ui.core.js"></script>
+<script src="jqueryui/development-bundle/ui/jquery.ui.widget.js"></script>
+<script src="jqueryui/development-bundle/ui/jquery.ui.mouse.js"></script>
+<script src="jqueryui/development-bundle/ui/jquery.ui.slider.js"></script>
+<script src="script.js"></script>
+</head>
+<body><div id="all">
+
+<div id="wrap">
+<div id="slider"></div>
+<div id="slider2"></div>
+</div>
+
+<button onclick="$('#wrap').height(200)">200</button>
+<button onclick="$('#wrap').height(400)">400</button>
+
+
+</div></body>
+</html>
